@@ -1,0 +1,62 @@
+usage用法: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+这些都是常见的Git命令中使用的各种各样的问题:
+
+start a working area (see also: git help tutorial)
+开始一个工作区域(参见:git帮助教程)
+   clone      Clone a repository into a new directory,克隆存储库到一个新的目录
+   init       Create an empty Git repository or reinitialize an existing one,创建一个空库或重新引导现有的一个
+
+work on the current change (see also: git help everyday)
+工作电流变化(参见:git帮助日常)
+   add        Add file contents to the index,文件的内容添加到索引
+   mv         Move or rename a file, a directory, or a symlink,移动或重命名一个文件、目录或符号链接
+   reset      Reset current HEAD to the specified state,重置当前前往指定的状态
+   rm         Remove files from the working tree and from the index,删除文件从工作树和索引
+
+examine the history and state (see also: git help revisions)
+检查历史和状态(参见:git帮助修正)
+   bisect     Use binary search to find the commit that introduced a bug, 使用二进制搜索找到引入一个错误的BUG
+   grep       Print lines matching a pattern, 匹配一个模式并打印
+   log        Show commit logs, 显示提交日志,
+   show       Show various types of objects,显示各种类型的对象,
+   status     Show the working tree status,显示树的工作状态,
+
+grow, mark and tweak your common history
+成长,标注和调整你的共同历史
+   branch     List, create, or delete branches ,列表、创建或删除分支,
+   checkout   Switch branches or restore working tree files,开关或恢复工作树枝文件、存储库
+   commit     Record changes to the repository,更改记录,
+   diff       Show changes between commits, commit and working tree, etc,显示之间的更改提交,提交和工作树,等,
+   merge      Join two or more development histories together,连接两个或两个以上的发展历史,
+   rebase     Reapply commits on top of another base tip,申请提交的另一个基本技巧,
+   tag        Create, list, delete or verify a tag object signed with GPG,创建列表,删除或验证一个标签对象与GPG签署,
+
+collaborate (see also: git help workflows)
+协作(参见:git帮助工作流)
+   fetch      Download objects and refs from another repository,从另一个存储库获取下载对象和参考文献,
+   pull       Fetch from and integrate with another repository or a local branch,从和集成与另一个库或者当地的分支机构,
+   push       Update remote refs along with associated objects,远程更新参考文献以及相关的对象,
+
+
+
+
+练习步骤：
+git init
+git clone 
+git branch
+git checkout
+git merge
+git status
+git add
+git commit
+git reset
+git log
+git remote
+git pull
+git push
